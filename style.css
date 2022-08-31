@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3ffe5;;
+
+}
+
+.transparent-header{
+    background-image: url(./images/transparent-header.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: top center;
+    height: 95vh;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    padding:30px 150px;
+
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+div.logo span{
+    color: red;
+}
+
+ul{
+    display:flex;
+    gap: 32px;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    align-items: center;
+    
+}
+
+li{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nav a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.nav a:hover {
+    color: rgb(253, 76, 76);
+}
+
+
+.hero-content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.title-container{
+    width: 58%;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    text-align:center;
+
+}
+
+h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+.hero-content > #cta > button {
+    margin-top: -30px;
+}
+
+#cta > button{
+    background-color: red;
+    border:none;
+    color:#fff;
+    padding: 16px 20px;
+    border-radius:6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#cta > button:hover{
+    background-color:#fff;
+    color: red;
+}
+
+.hero_destinations {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: -4%;
+
+}
+
+.hero_destinations img{
+    height: 150px;
+    width: 235px;
+
+}
+
+
+.hero_destinations > .destination {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;   
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    
+}
+
+.destination > .container{
+    background-color: #fff;
+
+}
+
+.destination-title, .destination-text {
+    padding: 0 20px 10px;
+
+}
+
+.destination-text {
+    margin-top: -10px;
+
+}
+
+.main-content-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.main-content-container h1{
+    text-align: left;
+
+}
+
+.main-content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 30px;
+
+}
+
+.halong-bay, .italy, .victoria-falls, .sydney-skyline, .hobbies-section {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;;
+    padding: 20px;
+}
+
+.halong-bay, .italy, .victoria-falls, .sydney-skyline {
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    border-radius: 6px;
+    height: 200px;
+    width: 100%;
+}
+
+.main-content > .victoria-falls{
+    background-image: url(./images/victoria_falls_hero_hero.jpg);
+}
+
+.main-content > .sydney-skyline{
+    background-image: url(./images/Sydney-skyline.jpg);
+}
+
+
+.main-content > .italy{
+    background-image: url(./images/Rome\,\ Lazio\,\ Italy.jpg);
+}
+
+.main-content > .halong-bay{
+    background-image: url(./images/Halong-Bay.jpg);
+}
+
+.main-content > .destination-text{
+    font-size:24px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgb(47, 47, 47);
+    text-align: center;
+}
+
+.hobbies-section{
+    background-image: url(./images/Gablenz\,\ SN\,\ Germany.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+
+.hobbies-section > .quote {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hobbies-section cite, .hobbies-section span{
+    font-size: 26px;
+    text-align: center;
+}
+
+.hobbies-section span{
+    display: block;
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.quote button {
+    font-size: smaller;
+    
+}
+
+.quote button a{
+    color: red;
+}
+
+.adventure-container{
+    background-color: #1f5768;
+    height: 120px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.adventure-info{
+    width: 65%;
+}
+
+.adventure-info h2{
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #094d0c;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
